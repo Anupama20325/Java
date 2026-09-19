@@ -1,0 +1,6 @@
+model,status
+LogisticRegression,not_run_no_labelled_real_dataset
+RandomForest,not_run_no_labelled_real_dataset
+MLP,not_run_no_labelled_real_dataset
+LSTM,not_run_no_labelled_real_dataset
+GraphTemporal,not_run_no_labelled_real_dataset

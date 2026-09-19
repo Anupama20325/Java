@@ -1,0 +1,6 @@
+dataset: {name: auto, root: ""}
+window: {length: 150, stride: 75}
+features: {position: true, velocity: true, acceleration: true, posture: true, frequency: true}
+model: {type: lstm, spatial_hidden: 64, temporal_hidden: 64, embedding_dim: 128, dropout: 0.2}
+training: {batch_size: 16, epochs: 20, learning_rate: 0.001, seed: 42}
+debug: {max_participants: 10, max_windows: 100}

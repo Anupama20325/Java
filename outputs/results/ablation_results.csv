@@ -1,0 +1,6 @@
+model,status,note
+A statistical motion,not_run_no_labelled_real_dataset,No synthetic metrics are reported.
+B temporal LSTM,not_run_no_labelled_real_dataset,No synthetic metrics are reported.
+C motion+posture,not_run_no_labelled_real_dataset,No synthetic metrics are reported.
+D temporal+baseline,not_run_no_labelled_real_dataset,No synthetic metrics are reported.
+E graph-temporal experimental,not_run_no_labelled_real_dataset,No synthetic metrics are reported.

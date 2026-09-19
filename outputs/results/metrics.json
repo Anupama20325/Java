@@ -1,0 +1,6 @@
+{
+  "dataset_detected": "no local dataset; synthetic sequence used only for software smoke-test",
+  "synthetic_test_only": true,
+  "clinical_disclaimer": "Not a diagnostic system; no clinical or longitudinal validation claimed.",
+  "metrics": null
+}

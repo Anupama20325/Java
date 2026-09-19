@@ -1,0 +1,3 @@
+from pathlib import Path
+def dashboard(path,pid,summary,deviation,prediction='Not trained (no labelled real dataset)'):
+ Path(path).write_text(f'''<html><body><h1>Personalized behavioural dashboard: {pid}</h1><p>Behavioural activity: {summary['activity']:.4f}</p><p>Movement variability: {summary['movement_variability']:.4f}</p><p>Postural variability: {summary['postural_variability']:.4f}</p><p>Behavioural deviation from baseline: {deviation:.4f}</p><p>Trend: stable</p><p>Model-estimated screening result: {prediction}</p><p><b>Within-session baseline proxy; not longitudinal validation.</b></p><p>This research prototype is not a diagnostic system and does not replace professional clinical assessment.</p></body></html>''')
