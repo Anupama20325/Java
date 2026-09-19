@@ -1,0 +1,2 @@
+participant_id,model_estimated_screening_result
+SYNTHETIC_TEST,Not trained; no labelled real dataset
